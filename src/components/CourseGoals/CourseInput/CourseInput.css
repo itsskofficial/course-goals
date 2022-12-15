@@ -26,3 +26,7 @@
 .form-control.invalid input{
   border-color: red;
 }
+
+.form-control.valid input{
+  border-color: green;
+}
