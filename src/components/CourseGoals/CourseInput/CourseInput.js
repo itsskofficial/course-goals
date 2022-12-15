@@ -13,6 +13,7 @@ const CourseInput = props => {
 
   const formSubmitHandler = event => {
     event.preventDefault();
+    if 
     props.onAddGoal(enteredValue);
   };
 
