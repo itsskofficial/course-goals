@@ -4,7 +4,8 @@ import Button from '../../UI/Button/Button';
 import './CourseInput.css';
 
 const CourseInput = props => {
-  const [enteredValue, setEnteredValue] = useState('');
+  const [enteredValue, setEnteredValue] = useState('')
+  const [isValid, setIsValid] = useState(true)
 
   const goalInputChangeHandler = event => {
     setEnteredValue(event.target.value);
