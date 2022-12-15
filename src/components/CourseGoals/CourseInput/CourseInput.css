@@ -23,4 +23,6 @@
   border-color: #8b005d;
 }
 
-.form-control.input.
+.form-control.invalid input{
+  
+}
