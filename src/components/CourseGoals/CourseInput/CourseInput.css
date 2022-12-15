@@ -34,3 +34,7 @@
 .form-control.invalid label{
   color: red;
 }
+
+.form-contro.valid label{
+  color:gre
+}
